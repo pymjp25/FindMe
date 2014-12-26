@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">找我吧</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_area">地区</string>
+    <string name="logindialog_title">请输入账号密码：</string>
+    <string name="logindialog_login">登录</string>
+    <string name="logindialog_cancel">取消</string>
+    <string name="title_activity_publish_case">PublishCase</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_data">没有符合条件的数据</string>
+
+</resources>

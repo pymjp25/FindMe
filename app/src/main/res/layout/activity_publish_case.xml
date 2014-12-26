@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    tools:context="com.example.findme.activity.PublishCaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:scrollbars="vertical"
+        android:paddingRight="10dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="概要信息"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#ff0000"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:background="#DCDCDC" >-->
+        <!--</View>-->
+
+    <RelativeLayout
+        android:id="@+id/change_publish_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布人"
+            android:textSize="14sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/publish_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="谁谁谁"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+        <RelativeLayout
+            android:id="@+id/change_publish_contact"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式"
+                    android:textSize="14sp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/publish_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系方式"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+        
+        <RelativeLayout
+            android:id="@+id/change_publish_case_type"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布类型"
+                android:textSize="14sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/publish_case_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="类型"
+                android:textSize="14sp"/>
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/change_publish_area"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="行政区域"
+                android:textSize="14sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:id="@+id/publish_area_province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="省"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/publish_area_city" />
+            <TextView
+                android:id="@+id/publish_area_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="市"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/publish_area_district"
+                android:layout_marginLeft="3dp"/>
+            <TextView
+                android:id="@+id/publish_area_district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="区"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"/>
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+        
+        <RelativeLayout
+            android:id="@+id/change_publish_place_type"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地点类型"
+                android:textSize="14sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/publish_place_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="行政区域"
+                android:textSize="14sp"/>
+            </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <TextView
+                android:id="@+id/publish_place_info"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="详细地点信息"
+                android:gravity="center"
+                android:textSize="14sp"/>
+            <EditText
+                android:id="@+id/publish_place_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入详细交通信息（如车牌、公交线路、班次等）或者地点范围（广东省广州市番禺区市桥某商场几楼等）"
+                android:textSize="12sp"
+                android:layout_below="@+id/publish_place_info"/>
+
+            <Button
+                android:id="@+id/getAddress_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="获取当前所在位置"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@+id/publish_place_detail"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <TextView
+                android:id="@+id/remark_info"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="备注信息"
+                android:textSize="14sp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/publish_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/remark_info"
+                android:hint="请输入比如人的身高 发型 衣着等，宠物的品种 颜色等，物品的颜色 形状等信息"
+                android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/change_publish_bonus"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酬金"
+                android:textSize="14sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:id="@+id/publish_bonus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/bonus_yuan"
+                android:layout_centerVertical="true"
+                android:text="1000"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/bonus_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="元"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" >
+        </View>
+
+        <Button
+            android:id="@+id/publish_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="确认提交"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>

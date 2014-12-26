@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_bg">#8000</color>
+
+    <color name="case_type_popup_left_bg">#fff</color>
+    <color name="case_type_popup_right_bg">#ddd</color>
+    <color name="case_type_popup_right_bg_selected">#ccc</color>
+    <color name="white">#fff</color>
+    <color name="div_gray">#ccc</color>
+
+</resources>

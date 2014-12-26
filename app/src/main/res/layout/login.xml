@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp" >
+
+    <EditText
+        android:id="@+id/account_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号码" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/account_edit"
+        android:layout_below="@+id/account_edit"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="请输入密码" 
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password_edit"
+        android:layout_below="@+id/password_edit"
+        android:layout_marginTop="18dp"
+        android:background="#FF4500"
+        android:text="登   录"
+        android:textColor="#fff" />
+
+    <RelativeLayout
+        android:id="@+id/regist_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动态密码"
+            android:textColor="#1E90FF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

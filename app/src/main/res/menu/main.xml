@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.findme.activity.MainActivity" >
+
+    <item
+        android:id="@+id/action_area"
+        android:showAsAction="always"
+        android:title="@string/action_area"/>
+    
+    <item 
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_icon"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="搜索"/>
+
+</menu>
